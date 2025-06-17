@@ -48,13 +48,11 @@ Rintis ID adalah sebuah platform showcase dan validasi Produk Lokal Indonesia. P
     php artisan key:generate
     ```
 
-4. **Konfigurasi Lingkungan**
-    Salin file `.env.example` menjadi `.env` dan sesuaikan konfigurasi database Anda.
+4. **Migrasi Database**
+    Jalankan migrasi untuk membuat tabel-tabel yang diperlukan dan seeder untuk seeding database:
     ```bash
-    cp .env.example .env
-    php artisan key:generate
+    php artisan migrate --seed
     ```
-
 5. **Storage Link**
     ```bash
     php artisan storage:link
