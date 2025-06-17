@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'title' => 'Indstillinger',
+    'subtitle' => 'Her kan du ændre indstillingerne for din konto.',
+    'appearance' => 'Udseende',
+    'update_your_settings_appearance' => 'Opdater dine indstillinger for udseende',
+    'light' => 'Lys',
+    'dark' => 'Mørk',
+    'system' => 'System',
+    'delete_account_title' => 'Slet konto',
+    'delete_account_subtitle' => 'Her kan du slette din konto permanent. Denne handling er permanent og kan ikke fortrydes.',
+    'delete_are_you_sure' => 'Er du sikker på, at du vil slette din konto?',
+    'delete_are_you_sure_text' => 'Når din konto er slettet, vil alle dens ressourcer og data blive permanent slettet. Indtast venligst din adgangskode for at bekræfte, at du vil slette din konto permanent.',
+    'password' => 'Adgangskode',
+    'update_password' => 'Opdater adgangskode',
+    'update_password_description' => 'Sørg for, at din konto bruger en lang, tilfældig adgangskode for at forblive sikker.',
+    'current_password' => 'Nuværende adgangskode',
+    'new_password' => 'Ny adgangskode',
+    'confirm_new_password' => 'Bekræft ny adgangskode',
+    'profile' => 'Brugerkonto',
+    'profile_description' => 'Opdater dine kontoinformationer og e-mailadresse.',
+    'your_email_is_unverified' => 'Din e-mail er ikke bekræftet.',
+    'click_here_to_request_verify' => 'Klik her for at anmode om en ny bekræftelses-e-mail',
+    'verification_link_sent' => 'En ny bekræftelses-e-mail er blevet sendt',
+];
